@@ -1,6 +1,5 @@
 import React from 'react';
 import {Switch, Route } from 'react-router-dom'
-import logo from './logo.svg';
 import './App.scss';
 
 class App extends React.Component {
@@ -8,8 +7,10 @@ class App extends React.Component {
     return (
       <div className="App">
         <main>
-          Main App
-
+          <Switch>
+            <Route exact path = '/' component={HomePage} />
+            <Route exact path = '/GamePage' component={GamePage} />
+          </Switch>
         </main>
       </div>
     );
