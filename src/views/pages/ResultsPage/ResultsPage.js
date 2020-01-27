@@ -7,7 +7,7 @@ const ResultsPage = () => {
     <div className="ResultsPage">
       <h1>Results Page</h1>
       <Link to='/GamePage'>Game Page</Link>
-      <Link to='/HomePage'>Home Page</Link>
+      <Link to='/'>Home Page</Link>
     </div>
   );
 };
