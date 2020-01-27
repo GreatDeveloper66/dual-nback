@@ -14,7 +14,7 @@ const HomePage = () => {
       </div>
       <div class="PlayButton">
         Play
-      </div>  
+      </div>
     </div>
   );
 };
