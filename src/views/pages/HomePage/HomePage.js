@@ -5,8 +5,16 @@ import './HomePage.scss'
 const HomePage = () => {
   return (
     <div className="HomePage">
-      <h1>Home Page</h1>
-      <Link to='/GamePage'>Game Page</Link>
+      <div class="HomeHeading">
+        <h1>dual n-back</h1>
+        <Link to='/GamePage'>Game Page</Link>
+      </div>
+      <div class="GameStatus">
+        Game Status
+      </div>
+      <div class="PlayButton">
+        Play
+      </div>  
     </div>
   );
 };
