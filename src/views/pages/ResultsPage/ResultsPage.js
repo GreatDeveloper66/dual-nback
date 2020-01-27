@@ -6,7 +6,8 @@ const ResultsPage = () => {
   return (
     <div className="ResultsPage">
       <h1>Results Page</h1>
-      <Link to='/'>Results Page</Link>
+      <Link to='/GamePage'>Results Page</Link>
+      <Link to='/HomePage'>Home Page</Link>
     </div>
   );
 };
